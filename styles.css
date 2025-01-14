@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerDiv {
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    align-items: center;
+    background: #F1EBFF;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.headerLane {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.blueText {
+    color: #40D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.greyText {
+    color: #5E6577;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.firstDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.purpleContainer {
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #F1EBFF;
+    flex-wrap: wrap;
+}
+
+.miniText {
+    color: #323232;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+header {
+    padding-bottom: 70px;
+}
+
+.forJustify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1040px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.purpleButton {
+    display: flex;
+    background: #40D;
+    border-radius: 16px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    max-width: 56px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#House {
+    max-width: 422px;
+    width: 100%;
+    height: 422px;
+}
+
+.biggestDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-bottom: 64px;
+}
+
+.bigText {
+    color: #5E6577;
+    text-align: right;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    max-width: 480px;
+    width: 100%;
+}
+
+.smallDiv {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.smallBlueText {
+    color: #40D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.smallGreyText {
+    color: #5E6577;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.smallDivParent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1040px;
+    height: 48px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.bigGreyText {
+    color: #5E6577;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 488px;
+    width: 100%;
+}
+
+.bigContainer {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    height: 266px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 18px 23px 0px 23px;
+    border-top: solid 2px #8CE900;
+    border-right: solid 2px #155EEF;
+    border-bottom: solid 2px #DD2590;
+    border-left: solid 2px #000000;
+}
+
+.smallLargeText {
+    color: #969696;
+    max-width: 488px;
+    width: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.bigPurpleContainer {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    gap: 16px;
+    height: 272px;
+    padding: 16px 24px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid #40D;
+    background: #EDE6FC;
+    flex-wrap: wrap;
+}
+
+.bigTextPurple {
+    color: #3B3B3B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 410px;
+    width: 100%;
+}
+
+.smallPurpleText {
+    color: #5E6577;
+    max-width: 488px;
+    width: 100%;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.blueContainer {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    height: 272px;
+    padding: 16px 24px;
+    align-items: flex-end;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+    flex-wrap: wrap;
+}
+
+.bigBlackText {
+    color: #07081A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 488px;
+    width: 100%;
+}
+
+.largeBlueText {
+    color: #155EEF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 488px;
+    width: 100%;
+}
+
+.footerContainer {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.footerMiniContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.footerMiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #F1EBFF;
+}
